@@ -16,7 +16,7 @@ def predict(request):
     try:
         my_data=request.data
         user_text=str(my_data['text'])
-        print(str(my_data['text']))
+        #print(str(my_data['text']))
         result=model_prediction.get_prediction(user_text)
         return JsonResponse(result,safe=False)
     except ValueError as e:
