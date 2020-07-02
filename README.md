@@ -24,8 +24,8 @@ This LSTM model has a accuracy of **96%** on test data.
 
 ### Potential:
 - This can further developed into a API where every one can take advantage of it to avoid toxic texts. By doing this one can integrate into chatting applications, games, ...etc.
-
+ #### [!] Note: API Service has been implemented and this can be used as a API with POST. This will return a Json format of the prediction of a given text.
 ### Backdrops:
 - This deep learning model is actually a multilabel classification and has the potential to detect various other labels such as insult,obscene, threat, etc. But however during my testing and according to the data visualisation there is a slight bias towards certain labels. Thats why I prefered to keep it as a binary classifier.
 
-**[!]Note:** I have generalized all the other labels as toxic and did'nt skip them. Skipping them would defeat the purpose the model.
+**[!]Note:** I have generalized all the other labels as toxic and did not skip them. Skipping them would defeat the purpose of the model.
