@@ -9,7 +9,7 @@ tensorflow-estimator==2.2.0
 sklearn==0.0
 snowballstemmer==1.2.1
 pickleshare==0.7.5
-nltk==3.4
+nltk==3.4.5
 numpy==1.16.2
 Keras==2.3.1
 Keras-Preprocessing==1.1.2
